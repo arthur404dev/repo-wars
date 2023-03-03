@@ -3,6 +3,7 @@ interface Repo {
   name: string
   description: string
   full_name: string
+  forks_count: number
   stargazers_count: number
   topics: string[]
   owner: {
