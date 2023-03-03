@@ -48,3 +48,137 @@
   color: var(--color-shade);
   font-size: 2.5rem;
 }
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.score .title {
+  font-size: 2.5rem;
+}
+
+.score .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 3rem;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-darkest);
+}
+
+.score .text {
+  font-weight: 700;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+  height: 40%;
+}
+
+.wrong {
+  color: var(--color-danger);
+}
+
+.correct {
+  color: var(--color-highlight);
+}
+
+@media (min-width: 600px) {
+  .game .repos {
+    padding: 1.5rem;
+  }
+  .repos .title {
+    font-size: 2rem;
+  }
+  .repos .container {
+    padding: 2rem;
+  }
+  .result {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .game-container {
+    padding: 2rem;
+  }
+  .game .repos {
+    padding: 2rem;
+  }
+  .repos .title {
+    font-size: 2.5rem;
+  }
+  .repos .container {
+    padding: 2rem;
+  }
+  .result {
+    font-size: 2.5rem;
+  }
+  .dashboard {
+    max-width: 40rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .game-container {
+    padding: 1rem;
+  }
+  .game .repos {
+    padding: 2rem;
+  }
+  .repos .title {
+    font-size: 3rem;
+  }
+  .repos .container {
+    flex-direction: row;
+  }
+  .result {
+    font-size: 3rem;
+  }
+  .dashboard {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    gap: 2rem;
+  }
+  .result {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .game .repos {
+    max-height: 60%;
+  }
+  .repos .title {
+    font-size: 4rem;
+  }
+  .icon-versus {
+    font-size: 2.5rem;
+  }
+  .result {
+    font-size: 2.5rem;
+  }
+}

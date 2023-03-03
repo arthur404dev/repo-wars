@@ -105,3 +105,109 @@
   font-size: 0.6rem;
   color: var(--color-light);
 }
+
+@media (min-width: 600px) {
+  .repo {
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    gap: 2.5rem;
+  }
+
+  .header .fullname {
+    font-size: 1rem;
+  }
+
+  .repo .content {
+    font-size: 1rem;
+  }
+
+  .data .stats {
+    gap: 1rem;
+  }
+
+  .stats .item {
+    font-size: 1.2rem;
+  }
+
+  .stats .topics {
+    max-height: 4rem;
+    height: 4rem;
+  }
+
+  .stats .topic {
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 40rem;
+  }
+
+  .header .fullname {
+    font-size: 1rem;
+  }
+
+  .repo .content {
+    font-size: 1rem;
+  }
+
+  .data .stats {
+    gap: 1rem;
+  }
+
+  .stats .item {
+    font-size: 1.2rem;
+  }
+
+  .stats .topics {
+    max-height: 4rem;
+    height: 4rem;
+  }
+
+  .stats .topic {
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .repo {
+    max-width: 35rem;
+    height: 25rem;
+    font-size: 1.8rem;
+    gap: 3rem;
+  }
+  .header .fullname {
+    font-size: 1.2rem;
+  }
+
+  .repo .content {
+    font-size: 1.1rem;
+  }
+
+  .data .stats {
+    gap: 1.5rem;
+  }
+
+  .stats .item {
+    font-size: 1.5rem;
+  }
+
+  .stats .topics {
+    max-height: 4rem;
+    height: 4rem;
+  }
+
+  .stats .topic {
+    height: 1.6rem;
+    font-size: 1rem;
+  }
+
+  .repo-img {
+    width: 5rem;
+    height: 5rem;
+  }
+}

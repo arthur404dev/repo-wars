@@ -75,7 +75,20 @@ const Game: React.FC<GameProps> = ({
   return (
     <div className='game'>
       {over ? (
-        <div className='score'></div>
+        <div className='score'>
+          <h1 className='title'>Congratulations, you did it!</h1>
+          <div className='container'>
+            <p className='text'>Final Score:</p>
+            <div className='result correct'>
+              <p>{correct}</p>
+              <FaCheckCircle />
+            </div>
+            <div className='result wrong'>
+              <p>{wrong}</p>
+              <FaTimesCircle />
+            </div>
+          </div>
+        </div>
       ) : (
         repo1 &&
         repo2 && (
