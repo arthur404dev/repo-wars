@@ -100,10 +100,10 @@ main {
 
 .button {
   color: var(--color-dark);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 5rem;
   border: none;
   cursor: pointer;
