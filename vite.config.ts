@@ -5,7 +5,4 @@ import { defineConfig } from "vite"
 export default defineConfig({
   plugins: [react()],
   resolve: { alias: { "node-fetch": "axios" } },
-  define: {
-    global: {},
-  },
 })
