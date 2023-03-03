@@ -1,9 +1,10 @@
 .repo {
   background-color: var(--color-darkest);
-  height: 45%;
+  height: max(45%, 22rem);
+  max-height: 22rem;
   width: 100%;
-  padding: 1.5rem;
-  border-radius: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
@@ -36,7 +37,7 @@
 .repo .content {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 0.5rem;
   font-size: 0.8rem;
 }
 
@@ -65,7 +66,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 0.7rem;
+  gap: 0.5rem;
 }
 
 .stats .item {
@@ -176,6 +177,7 @@
 @media (min-width: 1280px) {
   .repo {
     max-width: 35rem;
+    max-height: 24rem;
     height: 25rem;
     font-size: 1.8rem;
     gap: 3rem;
