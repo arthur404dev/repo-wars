@@ -1,7 +1,12 @@
-# React Web Game using GitHub API
+# RepoWars
+
+<p align="center">
+  <img src="./assets/RepoHeader.svg" alt="Repo Header">
+</p>
 
 This project is a web game created using React, Vite, TypeScript and consuming the public API of GitHub. The game displays all the data of two randomly selected repositories and the user must choose which one has more stars. The design is made with CSS3 and custom hooks, and a dedicated client is used to utilize the GitHub API.
 
+---
 ## Features
 
 - Functional Components in React
@@ -72,6 +77,7 @@ To contribute to this project, please follow these guidelines:
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Submit a pull request
 
+---
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
